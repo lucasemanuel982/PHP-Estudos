@@ -1,0 +1,23 @@
+O conceito de "solid" refere-se a um conjunto de princípios de design de software que visam melhorar a qualidade, a manutenibilidade e a extensibilidade do código. O acrônimo "SOLID" representa os cinco princípios-chave:
+
+
+
+S ingle Responsibility Principle (Princípio da Responsabilidade Única): 
+    Cada classe deve ter apenas uma responsabilidade, ou seja, deve ter apenas um motivo para ser alterada. Isso ajuda a manter as classes mais focadas, coesas e fáceis de manter.
+
+O pen-Closed Principle (Princípio do Aberto/Fechado): 
+    As entidades de software (classes, módulos, etc.) devem ser abertas para extensão, mas fechadas para modificação. Em vez de alterar o código existente, ele deve ser estendido por meio de herança, interfaces ou outros mecanismos de extensão.
+
+L iskov Substitution Principle (Princípio da Substituição de Liskov):
+     Os objetos de uma classe derivada devem poder ser substituídos pelos objetos de sua classe base sem interromper o comportamento esperado do programa. Isso garante a compatibilidade dos tipos e promove a reutilização do código.
+
+I nterface Segregation Principle (Princípio da Segregação de Interfaces):
+     As interfaces devem ser específicas para os clientes que as utilizam. Em vez de criar interfaces genéricas, é preferível ter várias interfaces especializadas. Isso evita que as classes implementem métodos desnecessários e reduz o acoplamento.
+
+D ependency Inversion Principle (Princípio da Inversão de Dependência):
+     Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Além disso, abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações. Esse princípio promove a modularidade, a reutilização e a flexibilidade.
+
+
+
+
+Ao aplicar esses princípios, o código PHP tende a se tornar mais modular, flexível e fácil de entender e manter. Os princípios SOLID ajudam a evitar a criação de classes monolíticas, com responsabilidades excessivas e dependências acopladas, promovendo um código mais limpo e de qualidade.

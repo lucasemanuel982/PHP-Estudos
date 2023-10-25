@@ -1,0 +1,16 @@
+1. Visão geral 
+
+Os arquivos DEVEM usar apenas tags <?php e <?=.
+
+Os arquivos DEVEM usar apenas UTF-8 sem BOM para código PHP.
+
+Arquivos DEVEM declarar símbolos (classes, funções, constantes, etc.) ou causar efeitos colaterais (por exemplo, gerar saída, alterar configurações .ini, etc.), mas NÃO DEVEM fazer ambos.
+
+Namespaces e classes DEVEM seguir um PSR de "carregamento automático": [ PSR-4 ].
+
+
+Os nomes das classes DEVEM ser declarados em StudlyCaps. Primeira letra maiúscula
+
+As constantes de classe DEVEM ser declaradas em letras maiúsculas com separadores de sublinhado e/ou tudo maiúsculo
+
+Os nomes dos métodos DEVEM ser declarados em camelCase.

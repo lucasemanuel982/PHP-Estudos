@@ -1,0 +1,7 @@
+PSR, ou "PHP Standards Recommendations" (Recomendações de Padrões do PHP), é um conjunto de padrões estabelecidos pela comunidade PHP para promover a interoperabilidade e o desenvolvimento consistente de código no ecossistema PHP.
+
+Esses padrões foram criados pela PHP Framework Interoperability Group (FIG), um grupo de desenvolvedores PHP que buscam melhorar a colaboração entre os diferentes projetos e frameworks PHP.
+
+As recomendações PSR estabelecem diretrizes sobre vários aspectos do desenvolvimento em PHP, incluindo convenções de codificação, estrutura de diretórios, autoloading de classes, interfaces comuns e outros tópicos relacionados. Seguir essas recomendações ajuda a melhorar a legibilidade, a manutenção e a interoperabilidade do código.
+
+Site: https://www.php-fig.org/psr/
